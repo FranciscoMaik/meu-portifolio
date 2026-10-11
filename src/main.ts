@@ -5,7 +5,7 @@ import campusImg from './assets/campus.jpg'
 const app = document.querySelector<HTMLDivElement>('#app')!
 
 app.innerHTML = `
-  <!-- HEADER & HERO -->
+  <!-- CABEÇALHO & HERO -->
   <div class="header-hero-wrapper">
     <div class="container">
       <header class="navbar">
@@ -28,15 +28,15 @@ app.innerHTML = `
             </svg>
             <span class="brand-name">ABDUL MO<i class="dot-i">I</i>Z</span>
           </div>
-          <span class="brand-role">UI/UX DESIGNER</span>
+          <span class="brand-role">DESIGNER DE UI/UX</span>
         </a>
 
         <div class="nav-right">
           <ul class="nav-links">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="active">Início</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
 
           <div class="search-pill">
@@ -44,7 +44,7 @@ app.innerHTML = `
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-            <input type="text" placeholder="Search" aria-label="Search" />
+            <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" />
             <div class="search-pill-cap"></div>
           </div>
         </div>
@@ -52,21 +52,20 @@ app.innerHTML = `
 
       <section id="home" class="hero-section">
         <div class="hero-content">
-          <p class="hero-greeting">Hello, <span>I'm</span></p>
+          <p class="hero-greeting">Olá, <span>eu sou</span></p>
           <h1 class="hero-title">ABDUL MOIZ GHANI</h1>
-          <p class="hero-subtitle">UI/UX Designer and Logo Designer</p>
+          <p class="hero-subtitle">Designer de UI/UX e Designer de Logotipos</p>
           <p class="hero-description">
-            Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-            ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum
+            Sou apaixonado por criar interfaces digitais intuitivas, modernas e
+            centradas no usuário. Transformo ideias complexas em experiências
+            visuais elegantes e funcionais para sites, aplicativos móveis e
+            identidades visuais de marcas.
           </p>
 
-          <button type="button" class="btn-chat" id="chatBtn">Let's start chat</button>
+          <button type="button" class="btn-chat" id="chatBtn">Vamos conversar</button>
 
           <div class="hero-social">
-            <span class="hero-social-label">Follow me on :</span>
+            <span class="hero-social-label">Siga-me em :</span>
             <!-- Twitter -->
             <a href="#contact" class="social-icon-link" aria-label="Twitter">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -105,64 +104,63 @@ app.innerHTML = `
     </div>
   </div>
 
-  <!-- WHO I'M & WHAT I DO -->
+  <!-- QUEM SOU EU & O QUE EU FAÇO -->
   <section id="about" class="about-services-section">
     <div class="container">
       <div class="who-im-row">
         <div class="who-im-content">
-          <h2 class="section-label-title">Who <span class="accent-text">I'm</span></h2>
-          <h3 class="who-headline">I'm student and studying Computer Science</h3>
-          <p class="who-subheadline">at <span>KARACHI UNIVERSITY (UBIT)</span></p>
-          <p class="who-tools">I use Adobe XD as well as Figma for <span>UI Designs</span></p>
+          <h2 class="section-label-title">Quem <span class="accent-text">Sou Eu</span></h2>
+          <h3 class="who-headline">Sou estudante e curso Ciência da Computação</h3>
+          <p class="who-subheadline">na <span>UNIVERSIDADE DE KARACHI (UBIT)</span></p>
+          <p class="who-tools">Utilizo o Adobe XD e também o Figma para <span>Designs de UI</span></p>
         </div>
 
         <div class="campus-image-card">
-          <img src="${campusImg}" alt="Karachi University (UBIT)" />
+          <img src="${campusImg}" alt="Universidade de Karachi (UBIT)" />
         </div>
       </div>
 
       <div class="what-i-do-block">
         <div class="what-i-do-header">
-          <h2 class="what-i-do-title">What I Do</h2>
-          <p class="what-i-do-subtitle">My <span>services</span></p>
+          <h2 class="what-i-do-title">O Que Eu Faço</h2>
+          <p class="what-i-do-subtitle">Meus <span>serviços</span></p>
         </div>
 
         <div class="services-grid">
-          <!-- Card 1: UI/UX DESIGNER -->
+          <!-- Card 1: DESIGNER DE UI/UX -->
           <div class="service-card">
-            <h3 class="service-card-title">UI/UX DESIGNER</h3>
+            <h3 class="service-card-title">DESIGNER DE UI/UX</h3>
             <div class="service-icon-wrap">
               <svg width="96" height="80" viewBox="0 0 96 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Desk -->
+                <!-- Mesa -->
                 <rect x="14" y="64" width="68" height="4" rx="2" fill="#e2e8f0" />
-                <!-- Person Torso & Head -->
+                <!-- Pessoa -->
                 <circle cx="52" cy="24" r="9" fill="#f1c27d" />
                 <path d="M43 21C43 16 47 13 52 13C57 13 61 16 61 21C58 19 46 19 43 21Z" fill="#1e293b" />
                 <path d="M36 58C36 44 43 37 52 37C61 37 68 44 68 58H36Z" fill="#0f172a" />
-                <!-- Red tie / collar detail -->
+                <!-- Gravata / colarinho -->
                 <path d="M48 37L52 45L56 37" fill="#ffffff" />
                 <path d="M51 41L52 52L53 41Z" fill="#ef4444" />
-                <!-- Laptop on desk -->
+                <!-- Notebook -->
                 <rect x="26" y="42" width="30" height="20" rx="2" fill="#cbd5e1" stroke="#334155" stroke-width="1.5" />
                 <rect x="29" y="45" width="24" height="14" rx="1" fill="#ffffff" />
                 <rect x="22" y="61" width="38" height="3" rx="1.5" fill="#94a3b8" />
-                <!-- Coffee mug -->
+                <!-- Caneca -->
                 <rect x="65" y="54" width="8" height="10" rx="1.5" fill="#f8fafc" />
                 <path d="M73 56H75C76.1 56 77 56.9 77 58V60C77 61.1 76.1 62 75 62H73" stroke="#f8fafc" stroke-width="1.5" />
               </svg>
             </div>
             <p class="service-card-desc">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
-              diam onumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Criação de interfaces modernas, protótipos interativos e
+              experiências de usuário fluidas focadas em usabilidade e resultados.
             </p>
           </div>
 
-          <!-- Card 2: LOGO DESIGNER -->
+          <!-- Card 2: DESIGNER DE LOGOTIPOS -->
           <div class="service-card">
-            <h3 class="service-card-title">LOGO DESIGNER</h3>
+            <h3 class="service-card-title">DESIGNER DE LOGOTIPOS</h3>
             <div class="service-icon-wrap">
               <svg width="110" height="76" viewBox="0 0 110 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Stylized bars + C emblem -->
                 <rect x="33" y="30" width="4.5" height="18" rx="1" fill="#e2e8f0" />
                 <rect x="40" y="23" width="4.5" height="25" rx="1" fill="#94a3b8" />
                 <rect x="47" y="16" width="4.5" height="32" rx="1" fill="#e2e8f0" />
@@ -173,13 +171,13 @@ app.innerHTML = `
                   stroke-linecap="round"
                 />
                 <text x="55" y="62" text-anchor="middle" fill="#cbd5e1" font-size="8.5" font-weight="600" letter-spacing="1.4">
-                  LOREM IPSUM
+                  SUA MARCA
                 </text>
               </svg>
             </div>
             <p class="service-card-desc">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
-              diam onumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Desenvolvimento de logotipos exclusivos e identidades visuais
+              marcantes que transmitem a essência e os valores do seu negócio.
             </p>
           </div>
 
@@ -188,28 +186,28 @@ app.innerHTML = `
             <h3 class="service-card-title">WEB DESIGN</h3>
             <div class="service-icon-wrap">
               <svg width="96" height="76" viewBox="0 0 96 76" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Laptop Frame -->
+                <!-- Moldura do Notebook -->
                 <rect x="18" y="16" width="60" height="40" rx="3" fill="#1e293b" stroke="#cbd5e1" stroke-width="2" />
                 <rect x="22" y="20" width="52" height="32" fill="#f8fafc" />
-                <!-- Web UI inside screen -->
+                <!-- Interface Web na tela -->
                 <rect x="22" y="20" width="52" height="6" fill="#334155" />
                 <circle cx="25.5" cy="23" r="1.2" fill="#ef4444" />
                 <circle cx="29" cy="23" r="1.2" fill="#fbbf24" />
                 <circle cx="32.5" cy="23" r="1.2" fill="#10c695" />
-                <!-- Content blocks -->
+                <!-- Blocos de conteúdo -->
                 <rect x="26" y="30" width="20" height="10" rx="1" fill="#94a3b8" />
                 <rect x="49" y="30" width="21" height="3" rx="1" fill="#cbd5e1" />
                 <rect x="49" y="35" width="16" height="3" rx="1" fill="#cbd5e1" />
                 <rect x="26" y="43" width="13" height="6" rx="1" fill="#cbd5e1" />
                 <rect x="41.5" y="43" width="13" height="6" rx="1" fill="#cbd5e1" />
                 <rect x="57" y="43" width="13" height="6" rx="1" fill="#cbd5e1" />
-                <!-- Laptop Base -->
+                <!-- Base do Notebook -->
                 <path d="M10 56H86L82 61H14L10 56Z" fill="#cbd5e1" />
               </svg>
             </div>
             <p class="service-card-desc">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed
-              diam onumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Planejamento e design de sites responsivos, páginas de destino e
+              sistemas web com visual atraente e navegação intuitiva.
             </p>
           </div>
         </div>
@@ -217,24 +215,23 @@ app.innerHTML = `
     </div>
   </section>
 
-  <!-- PROJECTS SECTION -->
+  <!-- SEÇÃO DE PROJETOS -->
   <section id="projects" class="projects-section">
     <div class="projects-orb-left"></div>
     <div class="projects-orb-right"></div>
 
     <div class="container">
       <div class="projects-header">
-        <h2 class="projects-title"><span>Projects</span> I have done</h2>
+        <h2 class="projects-title"><span>Projetos</span> que já realizei</h2>
         <p class="projects-desc">
-          Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua. At vero eos et acctus est Lorem ipsum dolor
-          sit amet. Lorem ipsum
+          Confira alguns dos meus trabalhos recentes em design de interfaces
+          móveis, sistemas web e identidade visual, desenvolvidos com atenção
+          aos detalhes e foco na melhor experiência para o usuário.
         </p>
       </div>
 
       <div class="projects-grid">
-        <!-- Project Card 1: Mobile Screens Dark/Emerald/Coral -->
+        <!-- Card de Projeto 1 -->
         <div class="project-card">
           <div class="project-preview">
             <svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
@@ -246,15 +243,14 @@ app.innerHTML = `
                 </linearGradient>
               </defs>
               <rect width="280" height="150" fill="url(#proj1Bg)" />
-              <!-- 4 Mobile Screens -->
-              <!-- Screen 1 -->
+              <!-- Tela 1 -->
               <rect x="18" y="25" width="52" height="100" rx="6" fill="#2b5856" stroke="#1f2937" stroke-width="1.5" />
               <circle cx="44" cy="55" r="10" fill="#10c695" opacity="0.7" />
               <rect x="28" y="75" width="32" height="4" rx="2" fill="#e2e8f0" opacity="0.8" />
               <rect x="33" y="83" width="22" height="3" rx="1.5" fill="#94a3b8" />
               <rect x="30" y="102" width="28" height="8" rx="4" fill="#ef4444" />
 
-              <!-- Screen 2 -->
+              <!-- Tela 2 -->
               <rect x="82" y="25" width="52" height="100" rx="6" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" />
               <rect x="88" y="35" width="40" height="22" rx="3" fill="#334155" />
               <circle cx="96" cy="46" r="5" fill="#ef4444" />
@@ -262,14 +258,14 @@ app.innerHTML = `
               <rect x="110" y="63" width="18" height="22" rx="3" fill="#3b4252" />
               <rect x="88" y="91" width="40" height="18" rx="3" fill="#334155" />
 
-              <!-- Screen 3 -->
+              <!-- Tela 3 -->
               <rect x="146" y="25" width="52" height="100" rx="6" fill="#23393d" stroke="#0f172a" stroke-width="1.5" />
               <circle cx="172" cy="52" r="14" fill="#ef4444" opacity="0.85" />
               <rect x="154" y="74" width="36" height="5" rx="2" fill="#f8fafc" />
               <rect x="158" y="83" width="28" height="3" rx="1.5" fill="#94a3b8" />
               <rect x="156" y="102" width="32" height="9" rx="4" fill="#10c695" />
 
-              <!-- Screen 4 -->
+              <!-- Tela 4 -->
               <rect x="210" y="25" width="52" height="100" rx="6" fill="#1e293b" stroke="#0f172a" stroke-width="1.5" />
               <rect x="216" y="35" width="40" height="26" rx="3" fill="#ef4444" opacity="0.8" />
               <rect x="216" y="67" width="40" height="12" rx="2" fill="#334155" />
@@ -279,12 +275,12 @@ app.innerHTML = `
           </div>
         </div>
 
-        <!-- Project Card 2: Corporate Editorial / Web Layout -->
+        <!-- Card de Projeto 2 -->
         <div class="project-card">
           <div class="project-preview">
             <svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
               <rect width="280" height="150" fill="#4b4436" />
-              <!-- Left Page -->
+              <!-- Página Esquerda -->
               <rect x="22" y="12" width="110" height="126" rx="2" fill="#f8fafc" />
               <circle cx="52" cy="40" r="18" fill="#eab308" />
               <rect x="78" y="26" width="44" height="5" rx="1" fill="#1e293b" />
@@ -296,7 +292,7 @@ app.innerHTML = `
               <polygon points="22,115 65,115 45,138 22,138" fill="#eab308" />
               <polygon points="65,122 132,105 132,138 50,138" fill="#1e293b" />
 
-              <!-- Right Page -->
+              <!-- Página Direita -->
               <rect x="146" y="12" width="112" height="126" rx="2" fill="#ffffff" />
               <rect x="146" y="12" width="38" height="126" fill="#1e293b" />
               <circle cx="165" cy="36" r="9" fill="#eab308" />
@@ -314,12 +310,12 @@ app.innerHTML = `
           </div>
         </div>
 
-        <!-- Project Card 3: Mobile Screens Light/Red/Dark -->
+        <!-- Card de Projeto 3 -->
         <div class="project-card">
           <div class="project-preview">
             <svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
               <rect width="280" height="150" fill="#94a3b8" />
-              <!-- Screen 1 -->
+              <!-- Tela 1 -->
               <rect x="16" y="20" width="54" height="110" rx="5" fill="#ffffff" />
               <rect x="22" y="30" width="42" height="6" rx="1" fill="#1e293b" />
               <rect x="22" y="42" width="42" height="3" rx="1" fill="#94a3b8" />
@@ -327,7 +323,7 @@ app.innerHTML = `
               <rect x="22" y="60" width="42" height="32" rx="3" fill="#e2e8f0" />
               <rect x="22" y="98" width="42" height="20" rx="3" fill="#1e293b" />
 
-              <!-- Screen 2 -->
+              <!-- Tela 2 -->
               <rect x="80" y="20" width="54" height="110" rx="5" fill="#f8fafc" />
               <circle cx="107" cy="42" r="11" fill="#ef4444" />
               <rect x="88" y="60" width="38" height="4" rx="1" fill="#1e293b" />
@@ -336,7 +332,7 @@ app.innerHTML = `
               <rect x="109" y="80" width="17" height="17" rx="3" fill="#fee2e2" />
               <rect x="88" y="103" width="38" height="16" rx="3" fill="#ef4444" />
 
-              <!-- Screen 3 -->
+              <!-- Tela 3 -->
               <rect x="144" y="20" width="54" height="110" rx="5" fill="#ffffff" />
               <rect x="144" y="20" width="54" height="28" rx="5" fill="#ef4444" />
               <rect x="152" y="56" width="38" height="14" rx="2" fill="#f1f5f9" />
@@ -344,7 +340,7 @@ app.innerHTML = `
               <rect x="152" y="94" width="38" height="14" rx="2" fill="#f1f5f9" />
               <rect x="158" y="114" width="26" height="8" rx="4" fill="#ef4444" />
 
-              <!-- Screen 4 -->
+              <!-- Tela 4 -->
               <rect x="208" y="20" width="54" height="110" rx="5" fill="#1e293b" />
               <rect x="214" y="30" width="42" height="35" rx="3" fill="#ef4444" />
               <circle cx="235" cy="47" r="8" fill="#fbbf24" />
@@ -356,24 +352,24 @@ app.innerHTML = `
       </div>
 
       <div class="carousel-dots" id="projectDots">
-        <button type="button" class="carousel-dot active" aria-label="Slide 1"></button>
-        <button type="button" class="carousel-dot" aria-label="Slide 2"></button>
-        <button type="button" class="carousel-dot" aria-label="Slide 3"></button>
-        <button type="button" class="carousel-dot" aria-label="Slide 4"></button>
+        <button type="button" class="carousel-dot active" aria-label="Projeto 1"></button>
+        <button type="button" class="carousel-dot" aria-label="Projeto 2"></button>
+        <button type="button" class="carousel-dot" aria-label="Projeto 3"></button>
+        <button type="button" class="carousel-dot" aria-label="Projeto 4"></button>
       </div>
     </div>
   </section>
 
-  <!-- TESTIMONIALS SECTION -->
+  <!-- SEÇÃO DE DEPOIMENTOS -->
   <section class="testimonials-section">
     <div class="container">
       <div class="testimonials-header">
-        <span class="testimonials-eyebrow">TESTIMONIALS</span>
-        <h2 class="testimonials-title">What Client says</h2>
+        <span class="testimonials-eyebrow">DEPOIMENTOS</span>
+        <h2 class="testimonials-title">O que os clientes dizem</h2>
       </div>
 
       <div class="testimonials-grid">
-        <!-- Client 1 -->
+        <!-- Cliente 1 -->
         <div class="testimonial-card">
           <div>
             <div class="testimonial-top">
@@ -388,20 +384,20 @@ app.innerHTML = `
               </div>
               <div class="testimonial-author">
                 <h4>James Gouse</h4>
-                <p>UI/UX DESIGNER, ETC</p>
+                <p>DESIGNER DE UI/UX, ETC</p>
               </div>
             </div>
             <p class="testimonial-quote">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Excelente profissional! Entregou o design do nosso aplicativo antes
+              do prazo, com uma interface limpa, intuitiva e muito bem estruturada.
             </p>
           </div>
-          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">
             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
           </div>
         </div>
 
-        <!-- Client 2 -->
+        <!-- Cliente 2 -->
         <div class="testimonial-card">
           <div>
             <div class="testimonial-top">
@@ -416,20 +412,20 @@ app.innerHTML = `
               </div>
               <div class="testimonial-author">
                 <h4>Michael Clarke</h4>
-                <p>UI/UX DESIGNER, ETC</p>
+                <p>DESIGNER DE UI/UX, ETC</p>
               </div>
             </div>
             <p class="testimonial-quote">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Fiquei impressionado com a qualidade e atenção aos detalhes. O novo
+              layout do nosso site melhorou muito a experiência dos usuários.
             </p>
           </div>
-          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">
             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
           </div>
         </div>
 
-        <!-- Client 3 -->
+        <!-- Cliente 3 -->
         <div class="testimonial-card">
           <div>
             <div class="testimonial-top">
@@ -443,20 +439,20 @@ app.innerHTML = `
               </div>
               <div class="testimonial-author">
                 <h4>Amelia</h4>
-                <p>UI/UX DESIGNER, ETC</p>
+                <p>DESIGNER DE UI/UX, ETC</p>
               </div>
             </div>
             <p class="testimonial-quote">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Trabalho impecável na criação da identidade visual e dos protótipos
+              no Figma. Comunicação clara e rápida durante todo o projeto.
             </p>
           </div>
-          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">
             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
           </div>
         </div>
 
-        <!-- Client 4 -->
+        <!-- Cliente 4 -->
         <div class="testimonial-card">
           <div>
             <div class="testimonial-top">
@@ -470,15 +466,15 @@ app.innerHTML = `
               </div>
               <div class="testimonial-author">
                 <h4>Camilia</h4>
-                <p>UI/UX DESIGNER, ETC</p>
+                <p>DESIGNER DE UI/UX, ETC</p>
               </div>
             </div>
             <p class="testimonial-quote">
-              Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliqu
+              Superou todas as nossas expectativas! Transformou nossa ideia
+              inicial em um produto visualmente incrível e muito fácil de usar.
             </p>
           </div>
-          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+          <div class="testimonial-stars" aria-label="5 de 5 estrelas">
             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
           </div>
         </div>
@@ -486,10 +482,10 @@ app.innerHTML = `
     </div>
   </section>
 
-  <!-- CONTACT ME FOOTER -->
+  <!-- RODAPÉ DE CONTATO -->
   <footer id="contact" class="contact-section">
     <div class="container">
-      <h2 class="contact-title">Contact Me</h2>
+      <h2 class="contact-title">Entre em Contato</h2>
 
       <div class="contact-grid">
         <div class="contact-socials">
@@ -523,21 +519,21 @@ app.innerHTML = `
         </div>
 
         <div class="contact-info-col">
-          <p>PHONE NUMBER : 03072285987</p>
-          <p>EMAIL ADDRESS : habibmoiz29@gmail.com</p>
-          <p>Experience : 8 Months</p>
+          <p>TELEFONE : 03072285987</p>
+          <p>E-MAIL : habibmoiz29@gmail.com</p>
+          <p>Experiência : 8 Meses</p>
         </div>
 
         <div class="contact-right-col">
-          <p>Full Customer Support</p>
-          <p>Origin : PAKISTAN , KARACHI</p>
+          <p>Suporte Completo ao Cliente</p>
+          <p>Origem : PAQUISTÃO , KARACHI</p>
         </div>
       </div>
     </div>
   </footer>
 `
 
-// Interactive carousel dots
+// Indicadores interativos do carrossel
 const dots = document.querySelectorAll<HTMLButtonElement>('#projectDots .carousel-dot')
 dots.forEach((dot) => {
   dot.addEventListener('click', () => {
@@ -546,7 +542,7 @@ dots.forEach((dot) => {
   })
 })
 
-// Smooth scroll to contact when clicking "Let's start chat"
+// Rolagem suave para a seção de contato ao clicar em "Vamos conversar"
 const chatBtn = document.querySelector<HTMLButtonElement>('#chatBtn')
 chatBtn?.addEventListener('click', () => {
   document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })
