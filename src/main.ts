@@ -26,7 +26,7 @@ app.innerHTML = `
                 stroke-linejoin="round"
               />
             </svg>
-            <span class="brand-name">ABDUL MO<i class="dot-i">I</i>Z</span>
+            <span class="brand-name">FRANCISCO MA<i class="dot-i">I</i>K</span>
           </div>
           <span class="brand-role">DESIGNER DE UI/UX</span>
         </a>
@@ -53,7 +53,7 @@ app.innerHTML = `
       <section id="home" class="hero-section">
         <div class="hero-content">
           <p class="hero-greeting">Olá, <span>eu sou</span></p>
-          <h1 class="hero-title">ABDUL MOIZ GHANI</h1>
+          <h1 class="hero-title">FRANCISCO MAIK</h1>
           <p class="hero-subtitle">Designer de UI/UX e Designer de Logotipos</p>
           <p class="hero-description">
             Sou apaixonado por criar interfaces digitais intuitivas, modernas e
@@ -97,7 +97,7 @@ app.innerHTML = `
 
         <div class="hero-visual">
           <div class="hex-portrait-wrapper">
-            <img src="${heroHexagonImg}" alt="Abdul Moiz Ghani" class="hex-portrait-img" />
+            <img src="${heroHexagonImg}" alt="Francisco Maik" class="hex-portrait-img" />
           </div>
         </div>
       </section>
@@ -495,7 +495,7 @@ app.innerHTML = `
                 <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
               </svg>
             </span>
-            <span>ABDUL MOIZ GHANI</span>
+            <span>FRANCISCO MAIK</span>
           </a>
 
           <a href="#contact" class="contact-social-item">
@@ -504,7 +504,7 @@ app.innerHTML = `
                 <path d="M15 3h-3a5 5 0 0 0-5 5v3H4v4h3v8h4v-8h3l1-4h-4V8a1 1 0 0 1 1-1h3z"></path>
               </svg>
             </span>
-            <span>ABDUL MOIZ GHANI</span>
+            <span>FRANCISCO MAIK</span>
           </a>
 
           <a href="#contact" class="contact-social-item">
@@ -514,7 +514,7 @@ app.innerHTML = `
                 <circle cx="4" cy="4" r="2"></circle>
               </svg>
             </span>
-            <span>ABDUL MOIZ GHANI</span>
+            <span>FRANCISCO MAIK</span>
           </a>
         </div>
 
