@@ -1,5 +1,5 @@
 import './style.css'
-import heroHexagonImg from './assets/hero-hexagon.jpg'
+import lulaImg from './assets/lula.png'
 import campusImg from './assets/campus.jpg'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
@@ -97,7 +97,7 @@ app.innerHTML = `
 
         <div class="hero-visual">
           <div class="hex-portrait-wrapper">
-            <img src="${heroHexagonImg}" alt="Abdul Moiz Ghani" class="hex-portrait-img" />
+            <img src="${lulaImg}" alt="Lula" class="hex-portrait-img" />
           </div>
         </div>
       </section>
